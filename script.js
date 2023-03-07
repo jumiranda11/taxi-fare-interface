@@ -216,6 +216,7 @@ const predict = () => {
       .catch((error) => {
         console.error('Error:', error);
       });
+      input(fareResult.innerText);
     });
   }
 };
